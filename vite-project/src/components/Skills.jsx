@@ -4,7 +4,7 @@ import html from "../assets/html.png";
 import react from "../assets/react.png";
 import github from "../assets/github.png";
 import java from "../assets/java.png";
-import cpp from "../assets/cpp.png";
+import cs from "../assets/cs.png";
 import tailwind from "../assets/tailwind.png";
 import netCore from "../assets/netCore.png";
 import node from "../assets/node.png";
@@ -53,8 +53,8 @@ const Skills = () => {
     },
     {
       id: 7,
-      src: cpp,
-      language: "C++",
+      src: cs,
+      language: "C#",
       style: "shadow-blue-800",
     },
     {
@@ -91,8 +91,8 @@ const Skills = () => {
 
   return (
     <div
-      name="skill"
-      className=" w-full pt-[300px] h-full bg-gradient-to-b from-gray-800 to-black"
+      name="skills"
+      className=" pt-32 md:pt-[150px] h-full bg-gradient-to-b from-gray-800 to-black"
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div className="pb-12">
